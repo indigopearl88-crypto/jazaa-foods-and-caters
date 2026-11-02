@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" width="320" height="48" fill="none">
+  <defs>
+    <linearGradient id="goldGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F79233"/>
+      <stop offset="100%" stop-color="#FFB366"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Royal Arch Emblem Crest -->
+  <g transform="translate(4, 2)">
+    <path d="M4 42 V22 C4 13 11 6 22 2 C33 6 40 13 40 22 V42 Z" 
+          stroke="url(#goldGradLight)" stroke-width="1.8" fill="#2A2722" fill-opacity="0.8"/>
+    <path d="M8 40 V23 C8 16 13 10 22 7 C31 10 36 16 36 23 V40 Z" 
+          stroke="url(#goldGradLight)" stroke-width="0.9" stroke-dasharray="2 1.5" fill="none"/>
+    <circle cx="22" cy="7" r="1.8" fill="#F79233"/>
+    
+    <!-- Stylized JF Monogram -->
+    <path d="M19 15 V28 C19 32 16.5 34 13.5 34 C11 34 9.5 32.5 9.5 30.5" 
+          stroke="#FAFAF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 15 V33 M22 16 H31 M22 23 H28.5" 
+          stroke="#F79233" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <line x1="6" y1="42" x2="38" y2="42" stroke="url(#goldGradLight)" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="22" cy="42" r="1.5" fill="#FAFAF8"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(56, 0)">
+    <!-- JAZAA -->
+    <text x="0" y="24" font-family="'Manrope', 'Cinzel', system-ui, sans-serif" font-size="19" font-weight="700" letter-spacing="0.14em" fill="#FAFAF8">
+      JAZAA
+    </text>
+    <!-- FOODS & CATERS in Gold Accent -->
+    <text x="80" y="24" font-family="'Manrope', 'Cinzel', system-ui, sans-serif" font-size="19" font-weight="600" letter-spacing="0.12em" fill="url(#goldGradLight)">
+      FOODS &amp; CATERS
+    </text>
+    
+    <!-- Subtitle / Location -->
+    <text x="1" y="38" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="600" letter-spacing="0.26em" fill="#FDF0E3" fill-opacity="0.8">
+      IQBAL TOWN MARQUEE COMPLEX · MAIN EXPRESSWAY
+    </text>
+    <line x1="1" y1="43" x2="252" y2="43" stroke="#F79233" stroke-width="0.6" stroke-opacity="0.5"/>
+  </g>
+</svg>

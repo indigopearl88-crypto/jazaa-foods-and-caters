@@ -592,7 +592,7 @@ function initMenuTabs() {
 
         tabPanes.forEach((pane, i) => {
             if (i === index) {
-                pane.style.display = 'block';
+                pane.style.display = 'flex';
                 pane.classList.add('active');
             } else {
                 pane.style.display = 'none';
@@ -611,9 +611,10 @@ function initMenuTabs() {
         });
     });
 
-    if (window.location.hash === '#daig') {
+    const hash = (window.location.hash || '').toLowerCase();
+    if (hash.includes('daig')) {
         activateTab(1);
-    } else if (window.location.hash === '#event') {
+    } else if (hash.includes('live') || hash.includes('decor') || hash.includes('stall') || hash.includes('corporate') || hash.includes('birthday') || hash.includes('event')) {
         activateTab(2);
     } else {
         activateTab(0);
